@@ -3,12 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tailwind css boiler plate</title>
+  <title>Shohel Rana | Personal Portfolio</title>
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline bg-primary">
-    tailwind css boiler plate
-  </h1>
+<body class=''>
+<!-- Web site main Wrapper -->
+<div id="website-wrapper" class="bg-gray-900 text-white min-h-screen w-full">
+<header id="header" class="bg-gray-900/80 border-b border-gray-500/20">
+  <div class="container mx-auto flex justify-between items-center h-16">
+    <!-- Logo -->
+    <div id="logo" class="px-2 py-1 rounded-full bg-blue-950 hover:ring-2 ring-blue-800 hover:scale-105 transition-all duration-300 text-3xl font-bold">
+      <a href="#"><span class="text-red-600/80">S</span><span class="text-yellow-800 -ml-[4px]">R</span></a>
+    </div>
+    <!-- navigation -->
+    <nav class="flex space-x-10">
+      <div id="menus" class="">
+        <ul class="flex space-x-5">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skill</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Timeline</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Togglling Dark Mode  -->
+       <div>
+        <button class="p-2 rounded-full cursor-pointer hover:bg-gray-800 text-yellow-400 hover:text-yellow-300 transition-all duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun-icon lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+        </button>
+        
+      </div>
+       <!-- Resume Download Button -->
+        <div>
+          <a href="#" class="border border-blue-500 hover:bg-blue-500/20 text-blue-400 transition-colors  duration-300 px-3 py-2 rounded-3xl cursor-pointer text-sm">Download Resume</a>
+        </div>
+    </nav>
+  </div>
+  
+</header>
+
+</div>
+  
+
+
+<script src="./main.js"></script>
 </body>
 </html>
