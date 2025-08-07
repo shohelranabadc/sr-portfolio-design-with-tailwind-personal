@@ -1,52 +1,175 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shohel Rana | Personal Portfolio</title>
   <link href="./output.css" rel="stylesheet">
 </head>
+
 <body class=''>
-<!-- Web site main Wrapper -->
-<div id="website-wrapper" class="bg-gray-900 text-white min-h-screen w-full">
-<header id="header" class="bg-gray-900/80 border-b border-gray-500/20">
-  <div class="container mx-auto flex justify-between items-center h-16">
-    <!-- Logo -->
-    <div id="logo" class="px-2 py-1 rounded-full bg-blue-950 hover:ring-2 ring-blue-800 hover:scale-105 transition-all duration-300 text-3xl font-bold">
-      <a href="#"><span class="text-red-600/80">S</span><span class="text-yellow-800 -ml-[4px]">R</span></a>
-    </div>
-    <!-- navigation -->
-    <nav class="flex space-x-10">
-      <div id="menus" class="">
-        <ul class="flex space-x-5">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skill</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Timeline</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <!-- Togglling Dark Mode  -->
-       <div>
-        <button class="p-2 rounded-full cursor-pointer hover:bg-gray-800 text-yellow-400 hover:text-yellow-300 transition-all duration-300">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun-icon lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-        </button>
-        
-      </div>
-       <!-- Resume Download Button -->
-        <div>
-          <a href="#" class="border border-blue-500 hover:bg-blue-500/20 text-blue-400 transition-colors  duration-300 px-3 py-2 rounded-3xl cursor-pointer text-sm">Download Resume</a>
+  <!-- WEBSITE MAIN WRAPPER START -->
+  <div id="website-wrapper" class="bg-gray-900 text-white min-h-screen w-full">
+    <!-- HEADER AND NAVBAR START -->
+    <header id="header" class="bg-gray-900/80 border-b border-gray-500/20 sticky top-0">
+      <div class="container mx-auto flex justify-between items-center h-16">
+        <!-- Logo -->
+        <div id="logo"
+          class="px-2 py-1 rounded-full bg-blue-950 hover:ring-2 ring-blue-800 hover:scale-105 transition-all duration-300 text-3xl font-bold">
+          <a href="#"><span class="text-red-600/80">S</span><span class="text-yellow-800 -ml-[4px]">R</span></a>
         </div>
-    </nav>
-  </div>
+        <!-- navigation -->
+        <nav class="flex space-x-10">
+          <div id="menus" class="">
+            <ul class="flex space-x-5">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Skill</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Timeline</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <!-- Togglling Dark Mode  -->
+          <div>
+            <button
+              class="p-2 rounded-full cursor-pointer hover:bg-gray-800 text-yellow-400 hover:text-yellow-300 transition-all duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-sun-icon lucide-sun">
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2" />
+                <path d="M12 20v2" />
+                <path d="m4.93 4.93 1.41 1.41" />
+                <path d="m17.66 17.66 1.41 1.41" />
+                <path d="M2 12h2" />
+                <path d="M20 12h2" />
+                <path d="m6.34 17.66-1.41 1.41" />
+                <path d="m19.07 4.93-1.41 1.41" />
+              </svg>
+            </button>
+
+          </div>
+          <!-- Resume Download Button -->
+          <div>
+            <a href="#"
+              class="border border-blue-500 hover:bg-blue-500/20 text-blue-400 transition-colors  duration-300 px-3 py-2 rounded-3xl cursor-pointer text-sm">Download
+              Resume</a>
+          </div>
+        </nav>
+      </div>
+    </header> <!-- HEADER AND NAVBAR END -->
+
+    <!-- HERO SECTION START -->
+  <section id="hero-section" class="">
+    <div class="container mx-auto min-h-screen w-full grid grid-cols-2 py-44">
+      <div id="hero-left" class="space-y-8">
+        <div id="hero-text" class="space-y-5">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Hello, I'm Shohel</h1>
+        <div id="hero-title" class="">
+          <h2 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl">Frontend Developer</h2>
+        </div>
+        <div id="hero-description" class="">
+          <p class="text-sm md:text-md lg:text-lg xl:text-lg">Passionate about creating amazing web experiences and learning new technologies every day. Join me on my coding journey as I build the future, one line of code at a time.</p>
+        </div>
+        </div>
+        <div id="hero-btns" class="flex space-x-4">
+          <button class="px-6 py-2 border rounded-full text-md font-semibold">View My Projects</button>
+          <button class="px-6 py-2 rounded-full text-md font-semibold hover:bg-blue-600 outline-1 hover:outline-none cursor-pointer transition duration-700 ease-in-out">Get In Touch</button>
+        </div>
+      </div>
+      <div id="hero-right" class="flex items-center justify-center">
+        <div id="hero-image" class="">
+          <img src="./assets/images/shohel.jpeg" alt="shohel" class="rounded-full hover:scale-110 ring-0 ring-offset-3 ring-offset-green-300 hover:ring-offset-green-500 cursor-pointer transition-all duration-300">
+        </div>
+      </div>
+    </div>
+  </section> <!-- HERO SECTION END -->
+
+  <!-- ABOUT SECTION START -->
+   <section id="about-section" class="min-h-screen w-full bg-gray-800/50">
+    <div class="container mx-auto w-4/6">
+      <!-- About text section -->
+      <div id="about-text" class="">
+        <div class="py-20">
+          <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center ">About Me</h2>
+        </div>
+        <div class="text-center space-y-8 px-10">
+          <p class="text-xl">Hi! I'm Raheel, a passionate 8th-grade student who discovered the amazing world of web development. What started as curiosity about how websites work has grown into a genuine love for coding and creating digital experiences.</p>
+          <p class="text-lg text-gray-400">I'm currently diving deep into both frontend and backend technologies, building projects that challenge me and help me grow as a developer. My goal is to become a skilled full-stack developer and contribute to innovative tech solutions.</p>
+        </div>
+      </div>
+      <!-- About box section -->
+      <div id="about-box" class="py-15">
+        <div id="boxes" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div id="box" class="p-6 bg-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/40 hover:shadow-xl/30 hover:shadow-blue-500/40 transition-all duration-500 delay-150 ease-in-out hover:scale-105  cursor-pointer">
+            <div class="flex items-start space-x-4">
+              <div class="bg-blue-700 p-2 rounded-sm transition-transform hover:rotate-90 duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-icon lucide-code"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+              </div>
+              <div>
+                <h3>Full-Stack Focus</h3>
+                <p>Learning both frontend and backend development to build complete applications.</p>
+              </div>
+            </div>
+          </div>
+          <div id="box" class="p-6 bg-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/40 hover:shadow-xl/30 hover:shadow-blue-500/40 transition-all duration-500 delay-150 ease-in-out hover:scale-105  cursor-pointer">
+            <div class="flex items-start space-x-4">
+              <div class="bg-blue-700 p-2 rounded-sm transition-transform hover:rotate-90 duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-icon lucide-code"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+              </div>
+              <div>
+                <h3>Full-Stack Focus</h3>
+                <p>Learning both frontend and backend development to build complete applications.</p>
+              </div>
+            </div>
+          </div>
+          <div id="box" class="p-6 bg-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/40 hover:shadow-xl/30 hover:shadow-blue-500/40 transition-all duration-500 delay-150 ease-in-out hover:scale-105  cursor-pointer">
+            <div class="flex items-start space-x-4">
+              <div class="bg-blue-700 p-2 rounded-sm transition-transform hover:rotate-90 duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-icon lucide-code"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+              </div>
+              <div>
+                <h3>Full-Stack Focus</h3>
+                <p>Learning both frontend and backend development to build complete applications.</p>
+              </div>
+            </div>
+          </div>
+          <div id="box" class="p-6 bg-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/40 hover:shadow-xl/30 hover:shadow-blue-500/40 transition-all duration-500 delay-150 ease-in-out hover:scale-105  cursor-pointer">
+            <div class="flex items-start space-x-4">
+              <div class="bg-blue-700 p-2 rounded-sm transition-transform hover:rotate-90 duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-icon lucide-code"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+              </div>
+              <div>
+                <h3>Full-Stack Focus</h3>
+                <p>Learning both frontend and backend development to build complete applications.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+   </section>
+  <!-- ABOUT SECTION END -->
   
-</header>
-
-</div>
-  
 
 
-<script src="./main.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </div> <!-- WEBSITE MAIN WRAPPER END -->
+
+  <script src="./main.js"></script>
 </body>
+
 </html>
